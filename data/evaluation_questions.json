@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What image RAG design pattern does the report recommend?",
+    "expected_source_types": ["pdf"]
+  },
+  {
+    "question": "Which support resolution channel is largest in 2025?",
+    "expected_source_types": ["image"]
+  },
+  {
+    "question": "When should a vision model inspect retrieved images?",
+    "expected_source_types": ["video"]
+  },
+  {
+    "question": "Which channel leads in 2025, and when should vision be used?",
+    "expected_source_types": ["image", "video"]
+  },
+  {
+    "question": "What image RAG design pattern does the report recommend, which support resolution channel is largest in the 2025 chart, and when does the training video recommend inspecting retrieved images with a vision model?",
+    "expected_source_types": ["pdf", "image", "video"]
+  }
+]

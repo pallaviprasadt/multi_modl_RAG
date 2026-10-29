@@ -1,0 +1,42 @@
+[
+  {
+    "start": 0.0,
+    "duration": 8.0,
+    "text": "In text RAG, the biggest failure usually happens before generation. The retriever simply does not bring the right evidence into the prompt."
+  },
+  {
+    "start": 8.0,
+    "duration": 10.0,
+    "text": "When teams add PDFs, dashboards, product screenshots and training videos, a text only index misses many useful signals."
+  },
+  {
+    "start": 18.0,
+    "duration": 10.0,
+    "text": "A practical multimodal RAG system converts each artifact into a searchable representation while preserving a pointer back to the original source."
+  },
+  {
+    "start": 28.0,
+    "duration": 9.0,
+    "text": "For charts and diagrams, one common pattern is caption indexing. A vision model writes a concise factual summary, and that summary is embedded."
+  },
+  {
+    "start": 37.0,
+    "duration": 10.0,
+    "text": "For video, the first version should usually be transcript based. Chunk the transcript by topic or time window and store start and end timestamps."
+  },
+  {
+    "start": 47.0,
+    "duration": 9.0,
+    "text": "Calling a vision model for every image during every query is expensive. Retrieve candidate images cheaply, then use vision only on the top evidence."
+  },
+  {
+    "start": 56.0,
+    "duration": 11.0,
+    "text": "Evaluation should ask whether the correct modality was retrieved, whether source citations were preserved, and whether visual evidence was interpreted accurately."
+  },
+  {
+    "start": 67.0,
+    "duration": 9.0,
+    "text": "The user experience improves when answers say which part came from the PDF, which came from the chart, and which came from the video timestamp."
+  }
+]
